@@ -1,0 +1,933 @@
+== disasm: #<ISeq:<compiled>@<compiled>>================================
+0000 trace            1                                               (   2)
+0002 putself          
+0003 putstring        "zlib"
+0005 opt_send_without_block <callinfo!mid:require, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0008 pop              
+0009 trace            1                                               (   3)
+0011 putself          
+0012 putstring        "base64"
+0014 opt_send_without_block <callinfo!mid:require, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0017 pop              
+0018 trace            1                                               (   6)
+0020 putspecialobject 3
+0022 putnil           
+0023 defineclass      :Comp, <class:Comp>, 0
+0027 pop              
+0028 trace            1                                               (  24)
+0030 putspecialobject 1
+0032 putobject        :nop
+0034 putiseq          nop
+0036 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0039 pop              
+0040 trace            1                                               (  30)
+0042 putspecialobject 1
+0044 putobject        :init
+0046 putiseq          init
+0048 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0051 pop              
+0052 trace            1                                               (  74)
+0054 putspecialobject 1
+0056 putobject        :dynamic
+0058 putiseq          dynamic
+0060 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0063 pop              
+0064 trace            1                                               (  82)
+0066 putspecialobject 1
+0068 putobject        :pow
+0070 putiseq          pow
+0072 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0075 pop              
+0076 trace            1                                               (  87)
+0078 putspecialobject 1
+0080 putobject        :xbox
+0082 putiseq          xbox
+0084 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0087 pop              
+0088 trace            1                                               (  95)
+0090 putspecialobject 1
+0092 putobject        :check1
+0094 putiseq          check1
+0096 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0099 pop              
+0100 trace            1                                               ( 104)
+0102 putspecialobject 1
+0104 putobject        :check2
+0106 putiseq          check2
+0108 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0111 pop              
+0112 trace            1                                               ( 114)
+0114 putspecialobject 1
+0116 putobject        :check3
+0118 putiseq          check3
+0120 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0123 pop              
+0124 trace            1                                               ( 122)
+0126 putspecialobject 1
+0128 putobject        :check4
+0130 putiseq          check4
+0132 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0135 pop              
+0136 trace            1                                               ( 127)
+0138 putspecialobject 1
+0140 putobject        :check5
+0142 putiseq          check5
+0144 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0147 pop              
+0148 trace            1                                               ( 134)
+0150 putspecialobject 1
+0152 putobject        :check
+0154 putiseq          check
+0156 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0159 pop              
+0160 trace            1                                               ( 152)
+0162 putspecialobject 1
+0164 putobject        :main
+0166 putiseq          main
+0168 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0171 pop              
+0172 trace            1                                               ( 233)
+0174 putstring        "<compiled>"
+0176 getglobal        $PROGRAM_NAME
+0178 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0181 branchunless     190
+0183 trace            1                                               ( 234)
+0185 putself          
+0186 opt_send_without_block <callinfo!mid:main, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0189 leave                                                            ( 233)
+0190 trace            1                                               ( 236)
+0192 putself          
+0193 putobject_OP_INT2FIX_O_1_C_ 
+0194 opt_send_without_block <callinfo!mid:main, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0197 leave            
+== disasm: #<ISeq:<class:Comp>@<compiled>>==============================
+0000 trace            2                                               (   6)
+0002 trace            1                                               (   7)
+0004 putspecialobject 1
+0006 putobject        :initialize
+0008 putiseq          initialize
+0010 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0013 pop              
+0014 trace            1                                               (  10)
+0016 putspecialobject 1
+0018 putobject        :c
+0020 putiseq          c
+0022 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0025 pop              
+0026 trace            1                                               (  15)
+0028 putspecialobject 1
+0030 putobject        :d
+0032 putiseq          d
+0034 opt_send_without_block <callinfo!mid:core#define_method, argc:2, ARGS_SIMPLE>, <callcache>
+0037 trace            4                                               (  21)
+0039 leave                                                            (  15)
+== disasm: #<ISeq:initialize@<compiled>>================================
+0000 trace            8                                               (   7)
+0002 putnil           
+0003 trace            16                                              (   8)
+0005 leave            
+== disasm: #<ISeq:c@<compiled>>=========================================
+local table (size: 2, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 2] data<Arg>  [ 1] out        
+0000 trace            8                                               (  10)
+0002 trace            1                                               (  11)
+0004 getinlinecache   11, <is:0>
+0007 getconstant      :Zlib
+0009 setinlinecache   <is:0>
+0011 getlocal_OP__WC__0 4
+0013 opt_send_without_block <callinfo!mid:deflate, argc:1, ARGS_SIMPLE>, <callcache>
+0016 setlocal_OP__WC__0 3
+0018 trace            1                                               (  12)
+0020 getlocal_OP__WC__0 3
+0022 trace            16                                              (  13)
+0024 leave                                                            (  12)
+== disasm: #<ISeq:d@<compiled>>=========================================
+== catch table
+| catch type: rescue st: 0002 ed: 0022 sp: 0000 cont: 0023
+== disasm: #<ISeq:rescue in d@<compiled>>===============================
+local table (size: 1, argc: 0 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 1] "\#$!"     
+0000 getlocal_OP__WC__0 3                                             (  18)
+0002 getinlinecache   11, <is:0>
+0005 getconstant      :Zlib
+0007 getconstant      :DataError
+0009 setinlinecache   <is:0>
+0011 checkmatch       3
+0013 branchunless     24
+0015 trace            1                                               (  19)
+0017 putself          
+0018 putstring        "nop"
+0020 opt_send_without_block <callinfo!mid:puts, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0023 leave                                                            (  18)
+0024 getlocal_OP__WC__0 3
+0026 throw            0
+| catch type: retry  st: 0022 ed: 0023 sp: 0000 cont: 0002
+|------------------------------------------------------------------------
+local table (size: 2, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 2] data<Arg>  [ 1] out        
+0000 trace            8                                               (  15)
+0002 trace            1                                               (  16)
+0004 getinlinecache   11, <is:0>
+0007 getconstant      :Zlib
+0009 setinlinecache   <is:0>
+0011 getlocal_OP__WC__0 4
+0013 opt_send_without_block <callinfo!mid:inflate, argc:1, ARGS_SIMPLE>, <callcache>
+0016 setlocal_OP__WC__0 3
+0018 trace            1                                               (  17)
+0020 getlocal_OP__WC__0 3
+0022 nop                                                              (  16)
+0023 trace            16                                              (  20)
+0025 leave                                                            (  17)
+== disasm: #<ISeq:nop@<compiled>>=======================================
+0000 trace            8                                               (  24)
+0002 trace            1                                               (  25)
+0004 putself          
+0005 putstring        "nop"
+0007 opt_send_without_block <callinfo!mid:puts, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0010 pop              
+0011 trace            1                                               (  26)
+0013 putself          
+0014 putobject_OP_INT2FIX_O_0_C_ 
+0015 opt_send_without_block <callinfo!mid:exit, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0018 trace            16                                              (  27)
+0020 leave                                                            (  26)
+== disasm: #<ISeq:init@<compiled>>======================================
+local table (size: 3, argc: 0 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 3] loadBuf    [ 2] c          [ 1] iseq       
+0000 trace            8                                               (  30)
+0002 trace            1                                               (  31)
+0004 putnil           
+0005 setlocal_OP__WC__0 5
+0007 trace            1                                               (  32)
+0009 putstring        "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\nAJ8BXwO3gO+Bn4Bfgb+AajQu/wLElpd2\n"(  67)
+0011 setlocal_OP__WC__0 5                                             (  32)
+0013 trace            1                                               (  68)
+0015 getinlinecache   22, <is:0>
+0018 getconstant      :Comp
+0020 setinlinecache   <is:0>
+0022 opt_send_without_block <callinfo!mid:new, argc:0, ARGS_SIMPLE>, <callcache>
+0025 setlocal_OP__WC__0 4
+0027 trace            1                                               (  69)
+0029 getlocal_OP__WC__0 4
+0031 getinlinecache   38, <is:1>
+0034 getconstant      :Base64
+0036 setinlinecache   <is:1>
+0038 getlocal_OP__WC__0 5
+0040 opt_send_without_block <callinfo!mid:decode64, argc:1, ARGS_SIMPLE>, <callcache>
+0043 opt_send_without_block <callinfo!mid:d, argc:1, ARGS_SIMPLE>, <callcache>
+0046 setlocal_OP__WC__0 5
+0048 trace            1                                               (  70)
+0050 getinlinecache   59, <is:2>
+0053 getconstant      :RubyVM
+0055 getconstant      :InstructionSequence
+0057 setinlinecache   <is:2>
+0059 getlocal_OP__WC__0 5
+0061 opt_send_without_block <callinfo!mid:load_from_binary, argc:1, ARGS_SIMPLE>, <callcache>
+0064 setlocal_OP__WC__0 3
+0066 trace            1                                               (  71)
+0068 getlocal_OP__WC__0 3
+0070 opt_send_without_block <callinfo!mid:eval, argc:0, ARGS_SIMPLE>, <callcache>
+0073 trace            16                                              (  72)
+0075 leave                                                            (  71)
+== disasm: #<ISeq:dynamic@<compiled>>===================================
+local table (size: 3, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 3] data<Arg>  [ 2] loader     [ 1] code       
+0000 trace            8                                               (  74)
+0002 trace            1                                               (  75)
+0004 putself          
+0005 opt_send_without_block <callinfo!mid:init, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0008 pop              
+0009 trace            1                                               (  76)
+0011 getinlinecache   18, <is:0>
+0014 getconstant      :Load
+0016 setinlinecache   <is:0>
+0018 opt_send_without_block <callinfo!mid:new, argc:0, ARGS_SIMPLE>, <callcache>
+0021 setlocal_OP__WC__0 4
+0023 trace            1                                               (  77)
+0025 getlocal_OP__WC__0 4
+0027 getlocal_OP__WC__0 5
+0029 opt_send_without_block <callinfo!mid:l, argc:1, ARGS_SIMPLE>, <callcache>
+0032 setlocal_OP__WC__0 3
+0034 trace            1                                               (  78)
+0036 getlocal_OP__WC__0 3
+0038 opt_send_without_block <callinfo!mid:eval, argc:0, ARGS_SIMPLE>, <callcache>
+0041 trace            16                                              (  79)
+0043 leave                                                            (  78)
+== disasm: #<ISeq:pow@<compiled>>=======================================
+local table (size: 3, argc: 2 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 3] a<Arg>     [ 2] b<Arg>     [ 1] result     
+0000 trace            8                                               (  82)
+0002 trace            1                                               (  83)
+0004 getlocal_OP__WC__0 5
+0006 getlocal_OP__WC__0 4
+0008 opt_send_without_block <callinfo!mid:**, argc:1, ARGS_SIMPLE>, <callcache>
+0011 opt_send_without_block <callinfo!mid:to_i, argc:0, ARGS_SIMPLE>, <callcache>
+0014 setlocal_OP__WC__0 3
+0016 trace            1                                               (  84)
+0018 getlocal_OP__WC__0 3
+0020 trace            16                                              (  85)
+0022 leave                                                            (  84)
+== disasm: #<ISeq:xbox@<compiled>>======================================
+local table (size: 1, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 1] num<Arg>   
+0000 trace            8                                               (  87)
+0002 trace            1                                               (  88)
+0004 putobject_OP_INT2FIX_O_1_C_ 
+0005 getinlinecache   12, <is:0>
+0008 getconstant      :Math
+0010 setinlinecache   <is:0>
+0012 putobject_OP_INT2FIX_O_1_C_ 
+0013 putobject        4
+0015 getlocal_OP__WC__0 3
+0017 opt_mult         <callinfo!mid:*, argc:1, ARGS_SIMPLE>, <callcache>
+0020 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0023 opt_send_without_block <callinfo!mid:sqrt, argc:1, ARGS_SIMPLE>, <callcache>
+0026 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0029 putobject        2
+0031 opt_div          <callinfo!mid:/, argc:1, ARGS_SIMPLE>, <callcache>
+0034 opt_send_without_block <callinfo!mid:to_i, argc:0, ARGS_SIMPLE>, <callcache>
+0037 setlocal_OP__WC__0 3
+0039 trace            1                                               (  89)
+0041 putobject        -19
+0043 getinlinecache   50, <is:1>
+0046 getconstant      :Math
+0048 setinlinecache   <is:1>
+0050 putself          
+0051 putobject        19
+0053 putobject        2
+0055 opt_send_without_block <callinfo!mid:pow, argc:2, FCALL|ARGS_SIMPLE>, <callcache>
+0058 putobject        4
+0060 putobject        5
+0062 opt_mult         <callinfo!mid:*, argc:1, ARGS_SIMPLE>, <callcache>
+0065 putobject        58
+0067 getlocal_OP__WC__0 3
+0069 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0072 opt_mult         <callinfo!mid:*, argc:1, ARGS_SIMPLE>, <callcache>
+0075 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0078 opt_send_without_block <callinfo!mid:sqrt, argc:1, ARGS_SIMPLE>, <callcache>
+0081 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0084 putobject        10
+0086 opt_div          <callinfo!mid:/, argc:1, ARGS_SIMPLE>, <callcache>
+0089 opt_send_without_block <callinfo!mid:to_i, argc:0, ARGS_SIMPLE>, <callcache>
+0092 setlocal_OP__WC__0 3
+0094 trace            1                                               (  90)
+0096 getinlinecache   103, <is:2>
+0099 getconstant      :Math
+0101 setinlinecache   <is:2>
+0103 getlocal_OP__WC__0 3
+0105 opt_send_without_block <callinfo!mid:sqrt, argc:1, ARGS_SIMPLE>, <callcache>
+0108 setlocal_OP__WC__0 3
+0110 trace            1                                               (  91)
+0112 getlocal_OP__WC__0 3
+0114 putobject        11
+0116 opt_minus        <callinfo!mid:-, argc:1, ARGS_SIMPLE>, <callcache>
+0119 setlocal_OP__WC__0 3
+0121 trace            1                                               (  92)
+0123 getlocal_OP__WC__0 3
+0125 opt_send_without_block <callinfo!mid:to_i, argc:0, ARGS_SIMPLE>, <callcache>
+0128 trace            16                                              (  93)
+0130 leave                                                            (  92)
+== disasm: #<ISeq:check1@<compiled>>====================================
+local table (size: 2, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 2] data<Arg>  [ 1] num        
+0000 trace            8                                               (  95)
+0002 trace            1                                               (  96)
+0004 getlocal_OP__WC__0 4
+0006 putobject        16
+0008 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0011 setlocal_OP__WC__0 3
+0013 trace            1                                               (  97)
+0015 getlocal_OP__WC__0 3
+0017 putobject        10
+0019 opt_mod          <callinfo!mid:%, argc:1, ARGS_SIMPLE>, <callcache>
+0022 putobject        9
+0024 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0027 branchif         34
+0029 putself          
+0030 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0033 pop              
+0034 trace            1                                               (  98)
+0036 getlocal_OP__WC__0 3
+0038 opt_send_without_block <callinfo!mid:to_s, argc:0, ARGS_SIMPLE>, <callcache>
+0041 putobject_OP_INT2FIX_O_1_C_ 
+0042 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0045 opt_send_without_block <callinfo!mid:to_i, argc:0, ARGS_SIMPLE>, <callcache>
+0048 putself          
+0049 putobject        652123274222
+0051 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0054 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0057 branchif         64
+0059 putself          
+0060 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0063 pop              
+0064 trace            1                                               (  99)
+0066 putself          
+0067 putobject        11311917806
+0069 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0072 getlocal_OP__WC__0 3
+0074 putobject        14
+0076 opt_send_without_block <callinfo!mid:>>, argc:1, ARGS_SIMPLE>, <callcache>
+0079 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0082 branchif         89
+0084 putself          
+0085 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0088 pop              
+0089 trace            1                                               ( 100)
+0091 getlocal_OP__WC__0 3
+0093 opt_send_without_block <callinfo!mid:to_s, argc:0, ARGS_SIMPLE>, <callcache>
+0096 putobject        2
+0098 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0101 opt_send_without_block <callinfo!mid:to_i, argc:0, ARGS_SIMPLE>, <callcache>
+0104 putobject_OP_INT2FIX_O_1_C_ 
+0105 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0108 branchif         115
+0110 putself          
+0111 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0114 pop              
+0115 trace            1                                               ( 101)
+0117 putself          
+0118 putobject        433497802430
+0120 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0123 getlocal_OP__WC__0 3
+0125 putobject        100
+0127 opt_mod          <callinfo!mid:%, argc:1, ARGS_SIMPLE>, <callcache>
+0130 putobject        11
+0132 opt_div          <callinfo!mid:/, argc:1, ARGS_SIMPLE>, <callcache>
+0135 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0138 branchunless     143
+0140 putnil           
+0141 jump             147
+0143 putself          
+0144 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0147 trace            16                                              ( 102)
+0149 leave                                                            ( 101)
+== disasm: #<ISeq:check2@<compiled>>====================================
+local table (size: 2, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 2] data<Arg>  [ 1] r          
+0000 trace            8                                               ( 104)
+0002 trace            1                                               ( 105)
+0004 getlocal_OP__WC__0 4
+0006 opt_send_without_block <callinfo!mid:reverse, argc:0, ARGS_SIMPLE>, <callcache>
+0009 setlocal_OP__WC__0 3
+0011 trace            1                                               ( 107)
+0013 getlocal_OP__WC__0 3
+0015 putobject_OP_INT2FIX_O_0_C_ 
+0016 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0019 putobject        16
+0021 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0024 putobject        4294967295
+0026 putobject        4
+0028 opt_send_without_block <callinfo!mid:>>, argc:1, ARGS_SIMPLE>, <callcache>
+0031 putobject        255
+0033 putobject        2
+0035 opt_ltlt         <callinfo!mid:<<, argc:1, ARGS_SIMPLE>, <callcache>
+0038 opt_send_without_block <callinfo!mid:&, argc:1, ARGS_SIMPLE>, <callcache>
+0041 putobject        238
+0043 opt_send_without_block <callinfo!mid:|, argc:1, ARGS_SIMPLE>, <callcache>
+0046 putobject        7
+0048 opt_mod          <callinfo!mid:%, argc:1, ARGS_SIMPLE>, <callcache>
+0051 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0054 branchif         61
+0056 putself          
+0057 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0060 pop              
+0061 trace            1                                               ( 108)
+0063 putself          
+0064 putobject        2788116824990
+0066 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0069 getlocal_OP__WC__0 3
+0071 putobject_OP_INT2FIX_O_1_C_ 
+0072 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0075 putobject        16
+0077 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0080 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0083 branchif         90
+0085 putself          
+0086 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0089 pop              
+0090 trace            1                                               ( 110)
+0092 putself                                                          ( 109)
+0093 putobject        961822506350
+0095 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0098 putself          
+0099 putobject        21303591806
+0101 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0104 opt_minus        <callinfo!mid:-, argc:1, ARGS_SIMPLE>, <callcache>
+0107 trace            1
+0109 putobject        134217727
+0111 putobject        16
+0113 opt_send_without_block <callinfo!mid:>>, argc:1, ARGS_SIMPLE>, <callcache>
+0116 trace            1                                               ( 110)
+0118 putobject        65535
+0120 putobject        202116108
+0122 opt_send_without_block <callinfo!mid:^, argc:1, ARGS_SIMPLE>, <callcache>
+0125 opt_send_without_block <callinfo!mid:&, argc:1, ARGS_SIMPLE>, <callcache>
+0128 putobject        8
+0130 opt_send_without_block <callinfo!mid:>>, argc:1, ARGS_SIMPLE>, <callcache>
+0133 putobject_OP_INT2FIX_O_1_C_ 
+0134 opt_send_without_block <callinfo!mid:>>, argc:1, ARGS_SIMPLE>, <callcache>
+0137 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0140 getlocal_OP__WC__0 3
+0142 putobject        2
+0144 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0147 putobject        16
+0149 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0152 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0155 branchif         162
+0157 putself                                                          ( 109)
+0158 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0161 pop              
+0162 trace            1                                               ( 111)
+0164 getlocal_OP__WC__0 3
+0166 putobject        -1
+0168 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0171 putobject        16
+0173 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0176 getlocal_OP__WC__0 3
+0178 putobject_OP_INT2FIX_O_1_C_ 
+0179 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0182 putobject        16
+0184 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0187 putobject        5
+0189 opt_minus        <callinfo!mid:-, argc:1, ARGS_SIMPLE>, <callcache>
+0192 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0195 branchunless     200
+0197 putnil           
+0198 jump             204
+0200 putself          
+0201 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0204 trace            16                                              ( 112)
+0206 leave                                                            ( 111)
+== disasm: #<ISeq:check3@<compiled>>====================================
+local table (size: 1, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 1] data<Arg>  
+0000 trace            8                                               ( 114)
+0002 trace            1                                               ( 116)
+0004 getlocal_OP__WC__0 3
+0006 putobject_OP_INT2FIX_O_1_C_ 
+0007 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0010 getlocal_OP__WC__0 3
+0012 putobject        2
+0014 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0017 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0020 branchif         27
+0022 putself          
+0023 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0026 pop              
+0027 trace            1                                               ( 117)
+0029 getlocal_OP__WC__0 3
+0031 putobject        -1
+0033 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0036 putobject        16
+0038 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0041 putself          
+0042 putobject        5279266749890
+0044 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0047 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0050 branchif         57
+0052 putself          
+0053 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0056 pop              
+0057 trace            1                                               ( 118)
+0059 getlocal_OP__WC__0 3
+0061 putobject        -1
+0063 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0066 putobject        16
+0068 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0071 getlocal_OP__WC__0 3
+0073 putobject        2
+0075 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0078 putobject        16
+0080 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0083 opt_minus        <callinfo!mid:-, argc:1, ARGS_SIMPLE>, <callcache>
+0086 putself          
+0087 putobject        21303591806
+0089 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0092 putobject_OP_INT2FIX_O_1_C_ 
+0093 opt_minus        <callinfo!mid:-, argc:1, ARGS_SIMPLE>, <callcache>
+0096 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0099 branchif         106
+0101 putself          
+0102 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0105 pop              
+0106 trace            1                                               ( 119)
+0108 putself          
+0109 putobject        21303591806
+0111 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0114 putobject_OP_INT2FIX_O_1_C_ 
+0115 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0118 getlocal_OP__WC__0 3
+0120 putobject        2
+0122 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0125 putobject        16
+0127 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0130 getlocal_OP__WC__0 3
+0132 putobject_OP_INT2FIX_O_0_C_ 
+0133 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0136 putobject        16
+0138 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0141 opt_minus        <callinfo!mid:-, argc:1, ARGS_SIMPLE>, <callcache>
+0144 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0147 branchunless     152
+0149 putnil           
+0150 jump             156
+0152 putself          
+0153 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0156 trace            16                                              ( 120)
+0158 leave                                                            ( 119)
+== disasm: #<ISeq:check4@<compiled>>====================================
+local table (size: 1, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 1] data<Arg>  
+0000 trace            8                                               ( 122)
+0002 trace            1                                               ( 124)
+0004 getinlinecache   11, <is:0>
+0007 getconstant      :Zlib
+0009 setinlinecache   <is:0>
+0011 getlocal_OP__WC__0 3
+0013 opt_send_without_block <callinfo!mid:crc32, argc:1, ARGS_SIMPLE>, <callcache>
+0016 putobject        2368709243
+0018 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0021 branchunless     26
+0023 putnil           
+0024 jump             30
+0026 putself          
+0027 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0030 trace            16                                              ( 125)
+0032 leave                                                            ( 124)
+== disasm: #<ISeq:check5@<compiled>>====================================
+local table (size: 2, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 2] data<Arg>  [ 1] s          
+0000 trace            8                                               ( 127)
+0002 trace            1                                               ( 128)
+0004 getlocal_OP__WC__0 4
+0006 putstring        "0"
+0008 opt_send_without_block <callinfo!mid:split, argc:1, ARGS_SIMPLE>, <callcache>
+0011 setlocal_OP__WC__0 3
+0013 trace            1                                               ( 129)
+0015 getlocal_OP__WC__0 3
+0017 putobject_OP_INT2FIX_O_0_C_ 
+0018 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0021 putobject        16
+0023 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0026 putself          
+0027 putobject        1985837594006
+0029 opt_send_without_block <callinfo!mid:xbox, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0032 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0035 branchif         42
+0037 putself          
+0038 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0041 pop              
+0042 trace            1                                               ( 130)
+0044 getlocal_OP__WC__0 3
+0046 putobject_OP_INT2FIX_O_1_C_ 
+0047 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0050 putobject_OP_INT2FIX_O_0_C_ 
+0051 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0054 putobject        16
+0056 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0059 getlocal_OP__WC__0 3
+0061 putobject_OP_INT2FIX_O_0_C_ 
+0062 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0065 putobject        16
+0067 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0070 putobject_OP_INT2FIX_O_1_C_ 
+0071 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0074 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0077 branchif         84
+0079 putself          
+0080 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0083 pop              
+0084 trace            1                                               ( 131)
+0086 getlocal_OP__WC__0 3
+0088 putobject_OP_INT2FIX_O_1_C_ 
+0089 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0092 putobject_OP_INT2FIX_O_0_C_ 
+0093 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0096 putobject        16
+0098 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0101 putobject_OP_INT2FIX_O_1_C_ 
+0102 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0105 getlocal_OP__WC__0 3
+0107 putobject_OP_INT2FIX_O_1_C_ 
+0108 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0111 putobject_OP_INT2FIX_O_1_C_ 
+0112 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0115 putobject        16
+0117 opt_send_without_block <callinfo!mid:to_i, argc:1, ARGS_SIMPLE>, <callcache>
+0120 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0123 branchunless     128
+0125 putnil           
+0126 jump             132
+0128 putself          
+0129 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0132 trace            16                                              ( 132)
+0134 leave                                                            ( 131)
+== disasm: #<ISeq:check@<compiled>>=====================================
+== catch table
+| catch type: break  st: 0028 ed: 0037 sp: 0000 cont: 0037
+|------------------------------------------------------------------------
+local table (size: 4, argc: 1 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 4] data<Arg>  [ 3] a          [ 2] b          [ 1] cc         
+0000 trace            8                                               ( 134)
+0002 trace            1                                               ( 135)
+0004 putobject        32..127
+0006 opt_send_without_block <callinfo!mid:to_a, argc:0, ARGS_SIMPLE>, <callcache>
+0009 setlocal_OP__WC__0 5
+0011 trace            1                                               ( 136)
+0013 getlocal_OP__WC__0 5
+0015 opt_send_without_block <callinfo!mid:reverse, argc:0, ARGS_SIMPLE>, <callcache>
+0018 setlocal_OP__WC__0 4
+0020 trace            1                                               ( 137)
+0022 duparray         [41, 95, 84, 23, 73, 17, 75, 95, 89, 16, 85, 88, 76, 19, 0, 24, 69, 11, 0, 25, 76, 30, 71, 95, 83, 16, 79, 17, 0, 6, 65, 6, 94, 94, 0, 33, 63, 1]( 138)
+0024 setlocal_OP__WC__0 3                                             ( 137)
+0026 trace            1                                               ( 142)
+0028 getlocal_OP__WC__0 6
+0030 opt_send_without_block <callinfo!mid:each_char, argc:0, ARGS_SIMPLE>, <callcache>
+0033 send             <callinfo!mid:with_index, argc:0>, <callcache>, block in check
+0037 trace            16                                              ( 149)
+0039 leave                                                            ( 142)
+== disasm: #<ISeq:block in check@<compiled>>============================
+== catch table
+| catch type: redo   st: 0002 ed: 0087 sp: 0000 cont: 0002
+| catch type: next   st: 0002 ed: 0087 sp: 0000 cont: 0087
+|------------------------------------------------------------------------
+local table (size: 2, argc: 2 [opts: 0, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 2] c<Arg>     [ 1] i<Arg>     
+0000 trace            256                                             ( 142)
+0002 trace            1                                               ( 143)
+0004 getlocal_OP__WC__0 3
+0006 opt_send_without_block <callinfo!mid:even?, argc:0, ARGS_SIMPLE>, <callcache>
+0009 branchunless     50
+0011 trace            1                                               ( 144)
+0013 getlocal_OP__WC__1 5
+0015 getlocal_OP__WC__1 3
+0017 getlocal_OP__WC__0 3
+0019 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0022 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0025 getlocal_OP__WC__0 4
+0027 putstring        "C"
+0029 opt_send_without_block <callinfo!mid:unpack, argc:1, ARGS_SIMPLE>, <callcache>
+0032 putobject_OP_INT2FIX_O_0_C_ 
+0033 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0036 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0039 branchunless     44
+0041 putnil           
+0042 jump             87
+0044 putself          
+0045 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0048 jump             87                                              ( 143)
+0050 trace            1                                               ( 146)
+0052 getlocal_OP__WC__1 4
+0054 getlocal_OP__WC__1 3
+0056 getlocal_OP__WC__0 3
+0058 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0061 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0064 getlocal_OP__WC__0 4
+0066 putstring        "C"
+0068 opt_send_without_block <callinfo!mid:unpack, argc:1, ARGS_SIMPLE>, <callcache>
+0071 putobject_OP_INT2FIX_O_0_C_ 
+0072 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0075 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0078 branchunless     83
+0080 putnil           
+0081 jump             87
+0083 putself          
+0084 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0087 trace            512                                             ( 148)
+0089 leave                                                            ( 146)
+== disasm: #<ISeq:main@<compiled>>======================================
+local table (size: 8, argc: 0 [opts: 1, rest: -1, post: 0, block: -1, kw: -1@-1, kwrest: -1])
+[ 8] test<Opt=0>[ 7] mainBuf    [ 6] input      [ 5] user       [ 4] pw         [ 3] stage1     [ 2] c          [ 1] stage2     
+0000 putnil                                                           ( 152)
+0001 setlocal_OP__WC__0 10
+0003 trace            8
+0005 trace            1                                               ( 153)
+0007 putnil           
+0008 setlocal_OP__WC__0 9
+0010 trace            1                                               ( 154)
+0012 putstring        "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\n"( 191)
+0014 setlocal_OP__WC__0 9                                             ( 154)
+0016 trace            1                                               ( 193)
+0018 putself          
+0019 getlocal_OP__WC__0 9
+0021 opt_send_without_block <callinfo!mid:dynamic, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0024 pop              
+0025 trace            1                                               ( 198)
+0027 putself          
+0028 opt_send_without_block <callinfo!mid:gets, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0031 opt_send_without_block <callinfo!mid:chomp, argc:0, ARGS_SIMPLE>, <callcache>
+0034 setlocal_OP__WC__0 8
+0036 trace            1                                               ( 201)
+0038 getlocal_OP__WC__0 8
+0040 putobject_OP_INT2FIX_O_0_C_ 
+0041 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0044 putstring        "{"
+0046 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0049 branchif         56
+0051 putself          
+0052 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0055 pop              
+0056 trace            1                                               ( 202)
+0058 getlocal_OP__WC__0 8
+0060 putobject        -1
+0062 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0065 putstring        "}"
+0067 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0070 branchif         77
+0072 putself          
+0073 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0076 pop              
+0077 trace            1                                               ( 203)
+0079 getlocal_OP__WC__0 8
+0081 putobject        1..-2
+0083 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0086 putstring        ":"
+0088 putstring        "A"
+0090 opt_send_without_block <callinfo!mid:unpack, argc:1, ARGS_SIMPLE>, <callcache>
+0093 putobject_OP_INT2FIX_O_0_C_ 
+0094 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0097 opt_send_without_block <callinfo!mid:index, argc:1, ARGS_SIMPLE>, <callcache>
+0100 opt_send_without_block <callinfo!mid:nil?, argc:0, ARGS_SIMPLE>, <callcache>
+0103 branchunless     110
+0105 putself          
+0106 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0109 pop              
+0110 trace            1                                               ( 204)
+0112 getlocal_OP__WC__0 8
+0114 putobject        1..-2
+0116 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0119 putstring        "\u007F"
+0121 putstring        "C"
+0123 opt_send_without_block <callinfo!mid:unpack, argc:1, ARGS_SIMPLE>, <callcache>
+0126 putobject_OP_INT2FIX_O_0_C_ 
+0127 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0130 putobject        69
+0132 opt_minus        <callinfo!mid:-, argc:1, ARGS_SIMPLE>, <callcache>
+0135 opt_send_without_block <callinfo!mid:chr, argc:0, ARGS_SIMPLE>, <callcache>
+0138 opt_send_without_block <callinfo!mid:split, argc:1, ARGS_SIMPLE>, <callcache>
+0141 expandarray      2, 0
+0144 setlocal_OP__WC__0 7
+0146 setlocal_OP__WC__0 6
+0148 trace            1                                               ( 206)
+0150 putself          
+0151 putstring        "hi "
+0153 getlocal_OP__WC__0 7
+0155 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0158 putstring        "/"
+0160 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0163 getlocal_OP__WC__0 6
+0165 opt_plus         <callinfo!mid:+, argc:1, ARGS_SIMPLE>, <callcache>
+0168 opt_send_without_block <callinfo!mid:puts, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0171 pop              
+0172 trace            1                                               ( 209)
+0174 putself          
+0175 opt_send_without_block <callinfo!mid:gets, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0178 opt_send_without_block <callinfo!mid:chomp, argc:0, ARGS_SIMPLE>, <callcache>
+0181 setlocal_OP__WC__0 5
+0183 trace            1                                               ( 212)
+0185 getlocal_OP__WC__0 5
+0187 putobject_OP_INT2FIX_O_0_C_ 
+0188 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0191 putstring        "{"
+0193 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0196 branchif         203
+0198 putself          
+0199 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0202 pop              
+0203 trace            1                                               ( 213)
+0205 getlocal_OP__WC__0 5
+0207 putobject        -1
+0209 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0212 putstring        "}"
+0214 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0217 branchif         224
+0219 putself          
+0220 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0223 pop              
+0224 trace            1                                               ( 215)
+0226 putself          
+0227 putstring        "check..."
+0229 opt_send_without_block <callinfo!mid:puts, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0232 pop              
+0233 trace            1                                               ( 217)
+0235 getlocal_OP__WC__0 5
+0237 putstring        "-"
+0239 opt_send_without_block <callinfo!mid:split, argc:1, ARGS_SIMPLE>, <callcache>
+0242 setlocal_OP__WC__0 4
+0244 trace            1                                               ( 218)
+0246 putself          
+0247 getlocal_OP__WC__0 4
+0249 putobject_OP_INT2FIX_O_0_C_ 
+0250 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0253 putobject        1..-1
+0255 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0258 opt_send_without_block <callinfo!mid:check1, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0261 pop              
+0262 trace            1                                               ( 219)
+0264 putself          
+0265 getlocal_OP__WC__0 4
+0267 putobject_OP_INT2FIX_O_1_C_ 
+0268 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0271 opt_send_without_block <callinfo!mid:check2, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0274 pop              
+0275 trace            1                                               ( 220)
+0277 putself          
+0278 getlocal_OP__WC__0 4
+0280 putobject        2
+0282 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0285 opt_send_without_block <callinfo!mid:check3, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0288 pop              
+0289 trace            1                                               ( 221)
+0291 putself          
+0292 getlocal_OP__WC__0 4
+0294 putobject        3
+0296 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0299 opt_send_without_block <callinfo!mid:check4, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0302 pop              
+0303 trace            1                                               ( 222)
+0305 putself          
+0306 getlocal_OP__WC__0 4
+0308 putobject        4
+0310 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0313 putobject        0..-2
+0315 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0318 opt_send_without_block <callinfo!mid:check5, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0321 pop              
+0322 trace            1                                               ( 224)
+0324 putself          
+0325 opt_send_without_block <callinfo!mid:gets, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0328 opt_send_without_block <callinfo!mid:chomp, argc:0, ARGS_SIMPLE>, <callcache>
+0331 setlocal_OP__WC__0 3
+0333 trace            1                                               ( 226)
+0335 getlocal_OP__WC__0 3
+0337 putobject_OP_INT2FIX_O_0_C_ 
+0338 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0341 putstring        "["
+0343 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0346 branchif         353
+0348 putself          
+0349 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0352 pop              
+0353 trace            1                                               ( 227)
+0355 getlocal_OP__WC__0 3
+0357 putobject        -1
+0359 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0362 putstring        "]"
+0364 opt_eq           <callinfo!mid:==, argc:1, ARGS_SIMPLE>, <callcache>
+0367 branchif         374
+0369 putself          
+0370 opt_send_without_block <callinfo!mid:nop, argc:0, FCALL|VCALL|ARGS_SIMPLE>, <callcache>
+0373 pop              
+0374 trace            1                                               ( 229)
+0376 putself          
+0377 getlocal_OP__WC__0 3
+0379 putobject        1..-2
+0381 opt_aref         <callinfo!mid:[], argc:1, ARGS_SIMPLE>, <callcache>
+0384 opt_send_without_block <callinfo!mid:check, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0387 pop              
+0388 trace            1                                               ( 230)
+0390 putself          
+0391 putstring        "finish?"
+0393 opt_send_without_block <callinfo!mid:puts, argc:1, FCALL|ARGS_SIMPLE>, <callcache>
+0396 trace            16                                              ( 231)
+0398 leave                                                            ( 230)
