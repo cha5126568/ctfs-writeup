@@ -1,3 +1,3 @@
-*H3X0R 3rd CTF Write-up
-H3X0R CTF ¿¡¼­ Á¦°¡ ³½ ¹®Á¦Áß Ç®ÀÌÀÚ¼ö°¡ 0ÀÎ ¹®Á¦¿¡ ´ëÇÑ Write-up.
-Ç®ÀÌÀÚ°¡ ÀÖ´Â ¹®Á¦´Â Write-up Á¦Ãâ±â°£ ÀÌÈÄ¿¡ °ø°³¿¹Á¤
+# H3X0R 3rd CTF Write-up
+H3X0R CTF ì—ì„œ ì œê°€ ë‚¸ ë¬¸ì œì¤‘ í’€ì´ìžìˆ˜ê°€ 0ì¸ ë¬¸ì œì— ëŒ€í•œ Write-up.
+í’€ì´ìžê°€ ìžˆëŠ” ë¬¸ì œëŠ” Write-up ì œì¶œê¸°ê°„ ì´í›„ì— ê³µê°œì˜ˆì •
